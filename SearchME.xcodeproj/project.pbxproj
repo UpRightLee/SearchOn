@@ -13,6 +13,9 @@
 		1A84FB2126AD6AF5000C1F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A84FB2026AD6AF5000C1F47 /* Assets.xcassets */; };
 		1A84FB2426AD6AF5000C1F47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A84FB2326AD6AF5000C1F47 /* Preview Assets.xcassets */; };
 		1A84FB2726AD6AF5000C1F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A84FB2526AD6AF5000C1F47 /* LaunchScreen.storyboard */; };
+		1A84FB2F26AD6B03000C1F47 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A84FB2E26AD6B03000C1F47 /* WebView.swift */; };
+		1A84FB3126AD742B000C1F47 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A84FB3026AD742A000C1F47 /* Launch Screen.storyboard */; };
+		1AAA0A2126B69FBC00C2B6F4 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAA0A2026B69FBC00C2B6F4 /* WebViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1A84FB2326AD6AF5000C1F47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A84FB2626AD6AF5000C1F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A84FB2826AD6AF5000C1F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A84FB2E26AD6B03000C1F47 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		1A84FB3026AD742A000C1F47 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1AAA0A2026B69FBC00C2B6F4 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,8 @@
 		1A84FB0E26AD6AF4000C1F47 = {
 			isa = PBXGroup;
 			children = (
+				1AAA0A2026B69FBC00C2B6F4 /* WebViewModel.swift */,
+				1A84FB3026AD742A000C1F47 /* Launch Screen.storyboard */,
 				1A84FB1926AD6AF5000C1F47 /* SearchME */,
 				1A84FB1826AD6AF5000C1F47 /* Products */,
 			);
@@ -63,6 +71,7 @@
 				1A84FB2526AD6AF5000C1F47 /* LaunchScreen.storyboard */,
 				1A84FB2826AD6AF5000C1F47 /* Info.plist */,
 				1A84FB2226AD6AF5000C1F47 /* Preview Content */,
+				1A84FB2E26AD6B03000C1F47 /* WebView.swift */,
 			);
 			path = SearchME;
 			sourceTree = "<group>";
@@ -134,6 +143,7 @@
 			files = (
 				1A84FB2726AD6AF5000C1F47 /* LaunchScreen.storyboard in Resources */,
 				1A84FB2426AD6AF5000C1F47 /* Preview Assets.xcassets in Resources */,
+				1A84FB3126AD742B000C1F47 /* Launch Screen.storyboard in Resources */,
 				1A84FB2126AD6AF5000C1F47 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A84FB1B26AD6AF5000C1F47 /* AppDelegate.swift in Sources */,
+				1A84FB2F26AD6B03000C1F47 /* WebView.swift in Sources */,
 				1A84FB1D26AD6AF5000C1F47 /* SceneDelegate.swift in Sources */,
+				1AAA0A2126B69FBC00C2B6F4 /* WebViewModel.swift in Sources */,
 				1A84FB1F26AD6AF5000C1F47 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
